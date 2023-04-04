@@ -46,3 +46,5 @@ Footer
 - Resources/links
 - Social media
 - accessibility
+
+We are keen to improve accessibility to Singing for Breathing so that anyone who lives with chronic breathlessness can benefit from the physical therapy, social support and joy that singing together brings.
