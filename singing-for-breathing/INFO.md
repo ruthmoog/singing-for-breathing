@@ -4,30 +4,22 @@
 
 > as someone with breathing difficulties I want to know if SfB is right for me
 
-What's it like?
-- What happens in a session
-- Frequency and duration
-- Who is it suitable for - non-referral criteria
+- review needed: Cleo
 
 > as someone interested in SfB I want to know how I can join in
 
-Give it a go!
-- Who can join catchment area etc
-- Register: contact info/form
-- Help with Zoom
-- Lighthouse location
-- Find us on social media
+- info on catchment needed: Catherine
+- review needed
 
 > as someone who attends sfb I want to read the song lyrics when they're not in the chat
 
--> Songbook - similar to the NHS find your problem interface?
+-> Songbook - similar to the NHS find your problem interface? Ruth
 
 > as a respiratory advisor I want to know about SfBs background and how it helps patients
 
-How do we help?
-- Who we are
-- outcomes
-- testamonials
+- review needed: Anna
+
+Resources:
 
 https://www.readcube.com/articles/10.1186%2Fs12890-017-0396-4?author_access_token=vRoIGaatueYBprrgGUV--2_BpE1tBhCbnbw3BuzI2RN7oTv60zYn2cX13_MHGScpkaTtkpWiWgCac8xZ_e_x0dpvs-HBdXpKyYrJ1IOuLig6YuAldA7vUqJovBNf2uWqJ7lzzcjNLKTBM1l5UlBF2Q==
 
@@ -38,13 +30,21 @@ A research project at the Royal Brompton Hospital compared the effects of partic
 
 “There is common ground between singing technique and the kinds of techniques physiotherapists teach people with chronic respiratory problems”.
 
-> as a community group, we want to keep offering our service and be seen to do good
+> as a community group, we want to get funding to keep offering our service
 
-Footer
-- Fundraising
-- Carbon footprint
-- Resources/links
-- Social media
-- accessibility
+- Funding & donations? Catherine
 
-We are keen to improve accessibility to Singing for Breathing so that anyone who lives with chronic breathlessness can benefit from the physical therapy, social support and joy that singing together brings.
+To do:
+- Footer
+  - Carbon footprint
+  - Thanks/ sponsors eg <a href="https://www.flaticon.com/free-icons/pentagram" title="pentagram icons">Pentagram icons created by Freepik - Flaticon</a>
+  - accessibility statement
+    - We are keen to improve accessibility to Singing for Breathing so that anyone who lives with chronic breathlessness can benefit from the physical therapy, social support and joy that singing together brings.
+  - code of conduct
+  - privacy policy
+  - Social media
+- Colour modes
+  - 🌒 🌕 🌖
+
+
+
