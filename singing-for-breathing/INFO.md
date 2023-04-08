@@ -2,20 +2,21 @@
 
 ## Specification
 
-> as someone with breathing difficulties I want to know if SfB is right for me
+> as someone with breathing difficulties I want to know what SfB does so I can decide if it will help me with my condition
 
+- **TODO** Add headline introduction to SfB
 - review needed: Cleo
 
-> as someone interested in SfB I want to know how I can join in
+> as someone who wants help with their breathing, I want to know how I can join in with sessions so I can benefit from them
 
 - info on catchment needed: Catherine
 - review needed
 
-> as someone who attends sfb I want to read the song lyrics when they're not in the chat
+> as a SfB participant, I want to see the song lyrics during an online session so that I can join in with the words
 
--> Songbook - similar to the NHS find your problem interface? Ruth
+-> **TODO** Songbook - similar to the NHS find your problem interface? Ruth
 
-> as a respiratory advisor I want to know about SfBs background and how it helps patients
+> as a clinician, I want to know about SfBs outcomes and participant's experiences so I can refer any patients that might benefit
 
 - review needed: Anna
 
