@@ -132,9 +132,8 @@ h2 {
 }
 
 h5, h6 { margin:        0;}
-h5 { padding:           2px 16px 16px 16px;}
-h6 { padding:           40px 16px 5px 16px;}
-
+h5 { padding:           40px 16px 5px 16px;}
+h6 { padding:           2px 16px 16px 16px;}
 
 .card p {
   padding:              2px 16px 16px 16px;
