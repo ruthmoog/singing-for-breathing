@@ -48,4 +48,13 @@ To do:
   - 🌒 🌕 🌖
 
 
-
+add video as a card?
+    <section class="bios">
+        <section class="card">
+            <iframe class="embeddedVideo" width="560" height="315" src="https://www.youtube.com/embed/q4Oo8Tk0Gio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <hgroup>
+                <h5>Singing for Breathing Video</h5>
+                <h6>Produced and Directed by Peter Boyd Maclean</h6>
+            </hgroup>
+            <p>Regular singing sessions were introduced at The Royal London Hospital to help patients with chronic lung disease, thanks to Dr Anna Moore’s fundraising. Initial funding to set up the group was granted by <a href="https://www.bartscharity.org.uk/our-news/singing-sessions-to-improve-patients-lung-health/">Bart's Charity</a>, this was then increased with Anna’s fundraising.</p>
+        </section>

@@ -163,10 +163,67 @@ h6 { padding:           2px 16px 16px 16px;}
 /* ===================================================================== */
 
 footer {
-  font-size:             0.75em;
+  font-size:            0.75em;
   width:                100%;
-  max-width:            100%;
-  min-width:            100%;
-  background-color:     var(--mid-blue);
+  padding:              5% 20% 20% 0;
+  background-color:     var(--nhs-blue);
+  color:                var(--background-white);
+  display:              grid;
+  grid-template-columns:5% 1fr 1fr 1fr 1fr 5%;
+  grid-auto-columns:    minmax(auto, auto);
+}
+
+footer ul, footer p {
+  text-decoration:      none;
+  list-style-type:      none;
+  padding:              .5em;
+  margin:               0;
+  min-width:            380px;
+}
+
+footer a:hover {
+  text-decoration:      underline solid 3px;
+}
+
+footer a {
+  text-decoration:      none;
   color:                var(--background-white);
 }
+
+footer img {
+  width:                200px;
+  height:               200px;
+}
+
+#our-pages {
+  grid-column-start:    2;
+  grid-column-end:      3;
+  grid-row-start:       1;
+  margin-left:          5%;
+}
+
+#our-policies{
+  grid-column-start:    3;
+  grid-column-end:      4;
+  grid-row-start:       1;
+}
+
+#get-in-touch{
+  grid-column-start:    4;
+  grid-column-end:      5;
+  grid-row-start:       1;
+}
+
+#thanks{
+  grid-column-start:    5;
+  grid-column-end:      6;
+  grid-row-start:       1;
+}
+
+#carbon {
+  grid-column-start:    2;
+  grid-column-end:      6;
+  grid-row-start:       2;
+  margin-top:           5%;
+  }
+
