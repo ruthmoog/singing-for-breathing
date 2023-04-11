@@ -10,6 +10,23 @@
   --nav-accent-color:   #DDD;    /* mid grey */
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+      --main-theme-color:   #006CC2; /* NHS blue */
+      --main-bg-color:      #004851; /* Deep sea blue */
+      --light-blue:         #00A2FF; /* X light blue */
+      --mid-blue:           #00A2FF; /* X mid blue */
+      --main-font-color:    #FFF;    /* white */
+      --accent-font-color:  #F3F3F3; /* light grey */
+      --nav-quote-bg-color: #7CA2BA; /* cloudy sky blue */
+      --nav-accent-color:   #DDD;    /* mid grey */
+    }
+
+    img {
+        filter: brightness(.8) contrast(1.2);
+    }
+    }
+
 /* Header and navigation menu */
 /* ===================================================================== */
 
@@ -54,6 +71,7 @@ body {
   font-family:          "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:                var(--main-font-color);
   font-size:            2em;
+  background-color:     var(--main-bg-color);
 }
 
 img {
