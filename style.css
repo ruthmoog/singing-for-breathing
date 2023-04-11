@@ -1,12 +1,13 @@
 /* Global variables */
 :root {
-  --nhs-blue:           #006CC2;
-  --light-blue:         #00A2FF; /*x*/
-  --mid-blue:           #00A2FF; /*footer*/
-  --dark-grey:          #646464;
-  --background-white:   #FFF;
-  --light-grey:         #F3F3F3; /*nav, pull quote*/
-  --accent-grey:        #DDD;    /*nav*/
+  --main-theme-color:   #006CC2; /* NHS blue */
+  --main-bg-color:      #FFF;    /* X white */
+  --light-blue:         #00A2FF; /* X light blue */
+  --mid-blue:           #00A2FF; /* X mid blue */
+  --main-font-color:    #646464; /* dark grey */
+  --accent-font-color:  #FFF;    /* white */
+  --nav-quote-bg-color: #F3F3F3; /* light grey */
+  --nav-accent-color:   #DDD;    /* mid grey */
 }
 
 /* Header and navigation menu */
@@ -14,7 +15,7 @@
 
 h1 {
   font-family:          Garamond, Times New Roman;
-  color:                var(--nhs-blue);
+  color:                var(--main-theme-color);
   font-size:            300%;
   padding:              0 20%;
 }
@@ -23,7 +24,7 @@ h1 {
   margin:               0;
   padding:              0 20%;
   overflow:             hidden;
-  background-color:     var(--light-grey);
+  background-color:     var(--nav-quote-bg-color);
   text-decoration:      none;
   list-style-type:      none;
 }
@@ -34,7 +35,7 @@ h1 {
 
 .mainNav li a {
   display:              block;
-  color:                var(--dark-grey);
+  color:                var(--main-font-color);
   text-align:           center;
   padding:              14px 16px;
   text-decoration:      none;
@@ -42,8 +43,8 @@ h1 {
 }
 
 .mainNav li a:hover:not(.active) {
-  background-color:     var(--accent-grey);
-  border-bottom:        solid 6px var(--nhs-blue);
+  background-color:     var(--nav-accent-color);
+  border-bottom:        solid 6px var(--main-theme-color);
 }
 
 /* Main styling */
@@ -51,7 +52,7 @@ h1 {
 
 body {
   font-family:          "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:                var(--dark-grey);
+  color:                var(--main-font-color);
   font-size:            2em;
 }
 
@@ -84,14 +85,14 @@ cite {
 blockQuote {
     font-size:          0.9em;
     display:            block;
-    background-color:   var(--light-grey);
+    background-color:   var(--nav-quote-bg-color);
     padding:            2em 2em;
     margin:             0 29% 0 29%;
 }
 
 .quoteMark {
   font-family:          Garamond, Times New Roman;
-  color:                var(--nhs-blue);
+  color:                var(--main-theme-color);
   font-size:            4em;
   line-height:          0.3em;
 }
@@ -106,8 +107,8 @@ blockQuote {
 /*---------------------------------------------------------------------*/
 
 h2 {
-  color:                var(--background-white);
-  background-color:     var(--nhs-blue);
+  color:                var(--accent-font-color);
+  background-color:     var(--main-theme-color);
   padding:              1em 20%;
 }
 
@@ -171,8 +172,8 @@ footer {
   font-size:            0.75em;
   width:                100%;
   padding:              5% 20% 20% 0;
-  background-color:     var(--nhs-blue);
-  color:                var(--background-white);
+  background-color:     var(--main-theme-color);
+  color:                var(--accent-font-color);
   display:              grid;
   grid-template-columns:5% 1fr 1fr 1fr 1fr 5%;
   grid-auto-columns:    minmax(auto, auto);
@@ -192,7 +193,7 @@ footer a:hover {
 
 footer a {
   text-decoration:      none;
-  color:                var(--background-white);
+  color:                var(--accent-font-color);
 }
 
 footer img {
