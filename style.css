@@ -2,8 +2,7 @@
 :root {
   --main-theme-color:   #006CC2; /* NHS blue */
   --main-bg-color:      #FFF;    /* white */
-  --light-blue:         #00A2FF; /* X light blue */
-  --mid-blue:           #00A2FF; /* X mid blue */
+  --accent-card:        #00A2FF; /* X mid blue */
   --main-font-color:    #646464; /* dark grey */
   --accent-font-color:  #FFF;    /* white */
   --nav-quote-bg-color: #F3F3F3; /* light grey */
@@ -12,18 +11,21 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-      --main-theme-color:   #006CC2; /* NHS blue */
-      --main-bg-color:      #004851; /* Deep sea blue */
-      --light-blue:         #00A2FF; /* X light blue */
-      --mid-blue:           #00A2FF; /* X mid blue */
-      --main-font-color:    #FFF;    /* white */
-      --accent-font-color:  #F3F3F3; /* light grey */
-      --nav-quote-bg-color: #7CA2BA; /* cloudy sky blue */
-      --nav-accent-color:   #DDD;    /* mid grey */
+      --main-theme-color:   #004D81; /* Deep blue */
+      --main-bg-color:      #161616; /* Blackish */
+      --accent-card:        #004D81; /* Deep blue */
+      --main-font-color:    #FFF;    /* White */
+      --accent-font-color:  #FFF;    /* White */
+      --nav-quote-bg-color: #242222; /* Light black */
+      --nav-accent-color:   #242222; /* Darker blue */
     }
 
     img {
         filter: brightness(.8) contrast(1.2);
+    }
+
+    p, quote, ul, h2, h3, h4, h5, h6 {
+        transparency:   50%;
     }
 }
 
