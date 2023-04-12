@@ -1,7 +1,7 @@
 /* Global variables */
 :root {
   --main-theme-color:   #006CC2; /* NHS blue */
-  --main-bg-color:      #FFF;    /* X white */
+  --main-bg-color:      #FFF;    /* white */
   --light-blue:         #00A2FF; /* X light blue */
   --mid-blue:           #00A2FF; /* X mid blue */
   --main-font-color:    #646464; /* dark grey */
@@ -25,7 +25,7 @@
     img {
         filter: brightness(.8) contrast(1.2);
     }
-    }
+}
 
 /* Header and navigation menu */
 /* ===================================================================== */
@@ -85,6 +85,10 @@ img {
 p, ul {
   padding:              1% 5%;
   margin:               0 20% 0 20%;
+}
+
+abbr {
+    text-decoration:    underline dashed var(--nav-quote-bg-color);
 }
 
 /* Quotations */
