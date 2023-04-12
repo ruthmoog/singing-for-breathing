@@ -2,7 +2,7 @@
 :root {
   --main-theme-color:   #006CC2; /* NHS blue */
   --main-bg-color:      #FFF;    /* white */
-  --accent-card:        #00A2FF; /* X mid blue */
+  --accent-card:        #00A2FF; /* mid blue */
   --main-font-color:    #646464; /* dark grey */
   --accent-font-color:  #FFF;    /* white */
   --nav-quote-bg-color: #F3F3F3; /* light grey */
@@ -64,6 +64,7 @@ h1 {
 .mainNav li a:hover:not(.active) {
   background-color:     var(--nav-accent-color);
   border-bottom:        solid 6px var(--main-theme-color);
+  text-decoration:      none;
 }
 
 /* Main styling */
@@ -87,6 +88,17 @@ img {
 p, ul {
   padding:              1% 5%;
   margin:               0 20% 0 20%;
+}
+
+a {
+    color:              var(--main-theme-color);
+    text-decoration:    underline solid;
+}
+
+a:hover {
+    color:              var(--main-font-color);
+    text-decoration:    underline var(--main-theme-color) wavy;
+    background-color:   var(--nav-quote-bg-color);
 }
 
 abbr {
@@ -213,6 +225,8 @@ footer ul, footer p {
 
 footer a:hover {
   text-decoration:      underline solid 3px;
+  color:                var(--accent-font-color);
+  background-color:     transparent;
 }
 
 footer a {
