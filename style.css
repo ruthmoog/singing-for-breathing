@@ -133,7 +133,7 @@ blockQuote {
   line-height:          0.3em;
 }
 
-.pullQuote, .embeddedVideo {
+.pullQuote {
     display:            block;
     padding:            2em 2em;
     margin:             0 29% 0 29%;
@@ -151,6 +151,16 @@ h2 {
 h3, h4 {
   padding:              1% 5%;
   margin:               0 20% 0 20%;
+}
+
+/* Embedded video */
+
+iframe {
+    width:              40%;
+    height:             9em;
+    min-height:         279px;
+    min-width:          500px;
+    margin:             0 29% 0 29%;
 }
 
 
