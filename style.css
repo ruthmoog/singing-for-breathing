@@ -77,16 +77,6 @@ h1 {
   text-decoration:      none;
 }
 
-input[type="submit"][value="Light"] {
-  prefers-color-scheme: light;
-}
-input[type="submit"][value*="Dark"] {
-  prefers-color-scheme: dark;
-}
-input[type="submit"][value*="Calm"] {
-  color: pink;
-}
-
 /* Main styling */
 /* ===================================================================== */
 
