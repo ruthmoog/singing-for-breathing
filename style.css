@@ -1,23 +1,29 @@
 /* Global variables */
 :root {
-  --main-theme-color:   #006CC2; /* NHS blue */
-  --main-bg-color:      #FFF;    /* white */
-  --accent-card:        #00A2FF; /* mid blue */
-  --main-font-color:    #646464; /* dark grey */
-  --accent-font-color:  #FFF;    /* white */
-  --nav-quote-bg-color: #F3F3F3; /* light grey */
-  --nav-accent-color:   #DDD;    /* mid grey */
+  --title-color:             #006CC2; /* NHS blue */
+  --main-bg-color:           #FFF;    /* white */
+  --main-font-color:         #646464; /* dark grey */
+  --nav-quote-bg-color:      #F3F3F3; /* light grey */
+  --nav-accent-color:        #DDD;    /* mid grey */
+  --section-heading-color:   #006CC2; /* NHS blue */
+  --bio-card-bg-color:       #FFF;    /* white */
+  --accent-card-bg-color:    #00A2FF; /* mid blue */
+  --accent-font-color:       #FFF;    /* white */
+  --footer-color:            #006CC2; /* NHS blue */
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-      --main-theme-color:   #004D81; /* Deep blue */
-      --main-bg-color:      #161616; /* Blackish */
-      --accent-card:        #004D81; /* Deep blue */
-      --main-font-color:    #FFF;    /* White */
-      --accent-font-color:  #FFF;    /* White */
-      --nav-quote-bg-color: #242222; /* Light black */
-      --nav-accent-color:   #242222; /* Darker blue */
+      --title-color:             #006CC2; /* NHS blue */
+      --main-bg-color:           #161616; /* blackish */
+      --main-font-color:         #FFF;    /* white */
+      --nav-quote-bg-color:      #242222; /* light black */
+      --nav-accent-color:        #023456; /* deep blue */
+      --section-heading-color:   #242222; /* light black */
+      --bio-card-bg-color:       #242222; /* light black */
+      --accent-card-bg-color:    #023456; /* deep blue */
+      --accent-font-color:       #FFF;    /* white */
+      --footer-color:            #023456; /* deep blue */
     }
 
     img {
@@ -34,7 +40,7 @@
 
 h1 {
   font-family:          Garamond, Times New Roman;
-  color:                var(--main-theme-color);
+  color:                var(--title-color);
   font-size:            300%;
   padding:              0 20%;
 }
@@ -54,7 +60,9 @@ h1 {
 
 .mainNav li a {
   display:              block;
-  color:                var(--main-font-color);
+/*
+  color:                var(--footer-color);
+*/
   text-align:           center;
   padding:              14px 16px;
   text-decoration:      none;
@@ -63,7 +71,7 @@ h1 {
 
 .mainNav li a:hover:not(.active) {
   background-color:     var(--nav-accent-color);
-  border-bottom:        solid 6px var(--main-theme-color);
+  border-bottom:        solid 6px var(--title-color);
   text-decoration:      none;
 }
 
@@ -91,13 +99,13 @@ p, ul {
 }
 
 a {
-    color:              var(--main-theme-color);
+    color:              var(--main-font-color);
     text-decoration:    underline solid;
 }
 
 a:hover {
     color:              var(--main-font-color);
-    text-decoration:    underline var(--main-theme-color) wavy;
+    text-decoration:    underline var(--title-color) wavy;
     background-color:   var(--nav-quote-bg-color);
 }
 
@@ -128,7 +136,7 @@ blockQuote {
 
 .quoteMark {
   font-family:          Garamond, Times New Roman;
-  color:                var(--main-theme-color);
+  color:                var(--title-color);
   font-size:            4em;
   line-height:          0.3em;
 }
@@ -144,7 +152,7 @@ blockQuote {
 
 h2 {
   color:                var(--accent-font-color);
-  background-color:     var(--main-theme-color);
+  background-color:     var(--section-heading-color);
   padding:              1em 20%;
 }
 
@@ -174,7 +182,6 @@ iframe {
   align-items:          stretch;
   gap:                  2em 0.5em;
   margin:               0 20% 0 20%;
-
 }
 
 .card img {
@@ -199,6 +206,8 @@ h6 { padding:           2px 16px 16px 16px;}
   min-width:            400px;
   max-width:            500px;
   font-size:            0.8em;
+  background-color:     var(--bio-card-bg-color);
+
 }
 
 .card:hover {
@@ -218,7 +227,7 @@ footer {
   font-size:            0.75em;
   width:                100%;
   padding:              5% 20% 20% 0;
-  background-color:     var(--main-theme-color);
+  background-color:     var(--footer-color);
   color:                var(--accent-font-color);
   display:              grid;
   grid-template-columns:5% 1fr 1fr 1fr 1fr 5%;
