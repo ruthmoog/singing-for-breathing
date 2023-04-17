@@ -3,6 +3,7 @@
   --title-color:             #006CC2; /* NHS blue */
   --main-bg-color:           #FFF;    /* white */
   --main-font-color:         #646464; /* dark grey */
+  --link-text-color:         #006CC2; /* NHS blue */
   --nav-quote-bg-color:      #F3F3F3; /* light grey */
   --nav-accent-color:        #DDD;    /* mid grey */
   --section-heading-color:   #006CC2; /* NHS blue */
@@ -17,6 +18,7 @@
       --title-color:             #006CC2; /* NHS blue */
       --main-bg-color:           #161616; /* blackish */
       --main-font-color:         #FFF;    /* white */
+      --link-text-color:         #00A2FF; /* light blue */
       --nav-quote-bg-color:      #242222; /* light black */
       --nav-accent-color:        #023456; /* deep blue */
       --section-heading-color:   #242222; /* light black */
@@ -99,7 +101,7 @@ p, ul {
 }
 
 a {
-    color:              var(--main-font-color);
+    color:              var(--link-text-color);
     text-decoration:    underline solid;
 }
 
