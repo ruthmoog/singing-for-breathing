@@ -37,6 +37,35 @@
     }
 }
 
+@media (prefers-contrast: low) {
+    :root {
+      --title-color:             #006CC2; /* NHS blue */
+      --main-bg-color:           #161616; /* blackish */
+      --main-font-color:         #FFF;    /* white */
+      --link-text-color:         #00A2FF; /* light blue */
+      --nav-quote-bg-color:      #242222; /* light black */
+      --nav-accent-color:        #023456; /* deep blue */
+      --section-heading-color:   #242222; /* light black */
+      --bio-card-bg-color:       #242222; /* light black */
+      --accent-card-bg-color:    #023456; /* deep blue */
+      --accent-font-color:       #FFF;    /* white */
+      --footer-color:            #023456; /* deep blue */
+    }
+
+    img {
+        filter:  brightness(0.8) contrast(1.2) sepia(20%);
+    }
+
+    p, quote, ul, h2, h3, h4, h5, h6 {
+        transparency:   60%;
+    }
+
+    body {
+    transparency: 10%;
+    }
+}
+
+
 @media (prefers-reduced-motion: reduce)  {
     /* reduced behaviour */
     .card {
