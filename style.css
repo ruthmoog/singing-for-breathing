@@ -272,12 +272,11 @@ h6 { padding:           2px 16px 16px 16px;}
 }
 
 #caps:checked ~ .songs {
-      text-transform: uppercase;
+    text-transform:     uppercase;
 }
 
 input {
     margin:            0 20% 0 20%;
-
 }
 
 
