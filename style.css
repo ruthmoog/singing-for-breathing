@@ -29,11 +29,11 @@
     }
 
     img {
-        filter: brightness(.8) contrast(1.2);
+        filter:                  brightness(.8) contrast(1.2);
     }
 
     p, quote, ul, h2, h3, h4, h5, h6 {
-        transparency:   50%;
+        transparency:            50%;
     }
 }
 
@@ -53,21 +53,21 @@
     }
 
     img {
-        filter:  brightness(0.8) contrast(1.2) sepia(20%);
+        filter:                  brightness(0.8) contrast(1.2) sepia(20%);
     }
 
     p, quote, ul, h2, h3, h4, h5, h6 {
-        transparency:   60%;
+        transparency:           60%;
     }
 
     body {
-    transparency: 10%;
+    transparency:               10%;
     }
 }
 
 @media (prefers-reduced-motion: reduce)  {
     .card {
-        transition: 0.6s;
+        transition:             0.6s;
     }
 }
 
@@ -132,7 +132,7 @@ img {
    margin-bottom:       -1.55em;
 }
 
-p, ul, details {
+p, ul, summary {
   padding:              1% 5%;
   margin:               0 20% 0 20%;
 }
@@ -151,6 +151,11 @@ a:hover {
 abbr {
     text-decoration:    underline dashed var(--nav-quote-bg-color);
 }
+
+summary {
+    cursor:             pointer;
+}
+
 
 /* Quotations */
 /*---------------------------------------------------------------------*/
@@ -242,6 +247,16 @@ h6 { padding:           2px 16px 16px 16px;}
   box-shadow:           0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+/* Policies */
+/* -------------------------------------------------------------------- */
+
+.policies h2 {
+    margin:             0 20%;
+    padding:            0.5em 1em;
+}
+
+
+
 /* Songbook */
 /* ===================================================================== */
 
@@ -277,6 +292,11 @@ h6 { padding:           2px 16px 16px 16px;}
 
 input {
     margin:            0 20% 0 20%;
+}
+
+.songs cite {
+  padding:              1% 5%;
+  margin:               0 20% 0 20%;
 }
 
 

@@ -57,3 +57,32 @@ songbook items template:
 <small><a href="#top">back to top</a></small><br />
 </details>
 -->
+
+
+Cookies Policy
+
+This Cookies Policy describes how our website [insert website name] ("Website") does not use any cookies to store or retrieve information on your browser.
+
+What are Cookies?
+
+Cookies are small text files that are placed on your device when you visit a website. They are widely used to enable website functionality, improve user experience, and provide website owners with valuable information about how visitors interact with their site.
+
+Our Use of Cookies
+
+Our website does not use any cookies to store or retrieve information on your browser. This means that we do not track your activity or collect any personal information about you.
+
+Third-Party Cookies
+
+Our website does not use any third-party cookies. Third-party cookies are cookies that are set by a domain other than the one that the user is visiting. They are typically used for advertising, analytics, and social media integration.
+
+Managing Cookies
+
+As our website does not use any cookies, there is no need for you to manage or delete them. If you are concerned about cookies on other websites, you can manage them through your browser settings.
+
+Changes to Our Cookies Policy
+
+We may update our Cookies Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any changes by posting the updated policy on our website. Your continued use of our website after the effective date of the updated policy will constitute your acceptance of the changes.
+
+Contact Us
+
+If you have any questions or concerns about our Cookies Policy, please contact us at [insert contact information].
