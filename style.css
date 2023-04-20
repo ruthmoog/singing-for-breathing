@@ -250,7 +250,7 @@ h6 { padding:           2px 16px 16px 16px;}
 /* Policies */
 /* -------------------------------------------------------------------- */
 
-.policies h2 {
+.policies h2, .policies li {
     margin:             0 20%;
     padding:            0.5em 1em;
 }
