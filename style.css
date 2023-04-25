@@ -120,7 +120,7 @@ h1 {
 body {
   font-family:          "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:                var(--main-font-color);
-  font-size:            2em;
+  font-size:            1.5em;
   background-color:     var(--main-bg-color);
 }
 
@@ -235,9 +235,9 @@ h6 { padding:           2px 16px 16px 16px;}
 .card {
   box-shadow:           0 4px 8px 0 rgba(0,0,0,0.2);
   transition:           0.3s;
-  width:                25%;
-  min-width:            400px;
-  max-width:            500px;
+  width:                20%;
+  min-width:            350px;
+  max-width:            450px;
   font-size:            0.8em;
   background-color:     var(--bio-card-bg-color);
   border-radius:        5px;
@@ -296,13 +296,19 @@ h6 { padding:           2px 16px 16px 16px;}
     text-transform:     uppercase;
 }
 
-.caps {
+#size:checked ~ .songs {
+    font-size:          xxx-large;
+}
+
+label {
+/*
     margin:         0 20% 0 0 ;
+*/
     padding:        0 3px 5px 3px;
     cursor:         pointer;
 }
 
-.Aa {
+.setting {
     color:          var(--title-color);
 }
 
@@ -310,7 +316,7 @@ h6 { padding:           2px 16px 16px 16px;}
     text-decoration: underline;
 }
 
-#caps {
+input {
     width:              2em;
     height:             2em;
     margin:             0 0 0 20%;
@@ -321,6 +327,7 @@ h6 { padding:           2px 16px 16px 16px;}
 .songs cite {
   padding:              1% 5%;
   margin:               0 20% 0 20%;
+  display: block;
 }
 
 
