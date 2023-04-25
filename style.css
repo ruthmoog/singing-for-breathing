@@ -1,16 +1,16 @@
 /* Global variables */
 :root {
-  --title-color:             #006CC2; /* NHS blue */
-  --main-bg-color:           #FFF;    /* white */
-  --main-font-color:         #646464; /* dark grey */
-  --link-text-color:         #006CC2; /* NHS blue */
-  --nav-quote-bg-color:      #F3F3F3; /* light grey */
-  --nav-accent-color:        #DDD;    /* mid grey */
-  --section-heading-color:   #006CC2; /* NHS blue */
-  --bio-card-bg-color:       #FFF;    /* white */
-  --accent-card-bg-color:    #00A2FF; /* mid blue */
-  --accent-font-color:       #FFF;    /* white */
-  --footer-color:            #006CC2; /* NHS blue */
+  --title-color:                #006CC2; /* NHS blue */
+  --main-bg-color:              #FFF;    /* white */
+  --main-font-color:            #646464; /* dark grey */
+  --link-text-color:            #006CC2; /* NHS blue */
+  --nav-quote-bg-color:         #F3F3F3; /* light grey */
+  --nav-accent-color:           #DDD;    /* mid grey */
+  --section-heading-color:      #006CC2; /* NHS blue */
+  --bio-card-bg-color:          #FFF;    /* white */
+  --accent-card-bg-color:       #00A2FF; /* mid blue */
+  --accent-font-color:          #FFF;    /* white */
+  --footer-color:               #006CC2; /* NHS blue */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -301,19 +301,16 @@ h6 { padding:           2px 16px 16px 16px;}
 }
 
 label {
-/*
-    margin:         0 20% 0 0 ;
-*/
-    padding:        0 3px 5px 3px;
-    cursor:         pointer;
+    padding:            0 3px 5px 3px;
+    cursor:             pointer;
 }
 
 .setting {
-    color:          var(--title-color);
+    color:              var(--title-color);
 }
 
 .U {
-    text-decoration: underline;
+    text-decoration:    underline;
 }
 
 input {
@@ -327,7 +324,7 @@ input {
 .songs cite {
   padding:              1% 5%;
   margin:               0 20% 0 20%;
-  display: block;
+  display:              block;
 }
 
 
