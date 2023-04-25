@@ -260,6 +260,12 @@ h6 { padding:           2px 16px 16px 16px;}
 /* Songbook */
 /* ===================================================================== */
 
+.songbookNav {
+    background-color:  var(--title-color);
+    text-decoration:   none;
+    color:             var(--accent-font-color);
+}
+
 #directory {
     display:           flex;
     flex-wrap:         wrap;
@@ -290,8 +296,30 @@ h6 { padding:           2px 16px 16px 16px;}
     text-transform:     uppercase;
 }
 
-input {
-    margin:            0 20% 0 20%;
+.caps {
+    margin:         0 20% 0 0 ;
+    padding:        0 3px 5px 3px;
+    cursor:         pointer;
+}
+
+.Aa {
+    color:          var(--title-color);
+}
+
+.U {
+    text-decoration: underline;
+}
+
+.settings {
+border: 1px solid tomato;
+}
+
+#caps {
+    width:              2em;
+    height:             2em;
+    margin:             0 0 0 20%;
+    cursor:             pointer;
+
 }
 
 .songs cite {
