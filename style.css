@@ -13,6 +13,9 @@
   --footer-color:               #006CC2; /* NHS blue */
 }
 
+/* Responsive visual elements */
+/* --------------------------------------------------------- */
+
 @media (prefers-color-scheme: dark) {
     :root {
       --title-color:             #006CC2; /* NHS blue */
@@ -71,14 +74,14 @@
     }
 }
 
-/* Responsive */
-/* ===================================================================== */
+/* Responsive format elements */
+/* ----------------------------------------------------------- */
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Small and extra small devices (phones, 600px and down; portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
     .mainNav {
-        position:              static;
+        position:               static;
     }
     .mainNav ul {
         padding:                 0;
@@ -86,21 +89,12 @@
     .mainNav li {
         width:                  100%;
     }
-    p, .warm-up li, h1, h3, summary, blockQuote, quote, cite {
+    p, .warm-up li, h1, h3, summary, blockQuote, quote, cite, .policies h2, .policies li {
         margin:                 0 2%;
     }
     h2 {
         padding:                1em 8%;
     }
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    h2 {
-        padding:                1em 8%;
-    }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -111,21 +105,18 @@
     .mainNav ul {
         padding:                 0;
     }
-    p, .warm-up li, h1, h3, h4, summary, blockQuote, quote, cite {
+    p, .warm-up li, h1, h3, h4, summary, blockQuote, quote, cite, .policies h2, .policies li {
         margin:                 0 2%;
     }
     input {
         margin:                 0 0 0 10%;
-    }
-    h2 {
-        padding:                1em 8%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .mainNav {
-        position:                   sticky;
+        position:               sticky;
     }
     .mainNav li {
         width:                   20%;
@@ -133,7 +124,7 @@
     .mainNav ul {
         padding:                 0;
     }
-    p, .warm-up li, h1, h3, h4, summary, blockQuote, quote, cite {
+    p, .warm-up li, h1, h3, h4, summary, blockQuote, quote, cite, .policies h2, .policies li {
         margin:                 0 10%;
     }
     input {
@@ -146,24 +137,18 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    p, h1, h3, h4, summary, blockQuote, quote, cite {
+    p, h1, h3, h4, summary, blockQuote, quote, cite, .policies h2, .policies li {
         margin:                 0 20%;
     }
     .warm-up li {
-       margin:                 0 29%;
+       margin:                  0 29%;
 
     }
     .mainNav li {
-        width:                      auto;
+        width:                  auto;
     }
     .mainNav ul {
-        padding:                    0 0 0 15%;
-    }
-    .mainNav {
-        position:                   sticky;
-    }
-    h2 {
-        padding:                1em 15%;
+        padding:                0 0 0 15%;
     }
 }
 
@@ -208,7 +193,7 @@ h1 {
   text-decoration:      none;
 }
 
-/* Main styling */
+/* Main styling for general content */
 /* ===================================================================== */
 
 body {
@@ -250,6 +235,19 @@ summary {
 }
 
 
+/* Titles */
+/*---------------------------------------------------------------------*/
+
+h2 {
+  color:                var(--accent-font-color);
+  background-color:     var(--section-heading-color);
+}
+
+h3, h4 {
+  padding:              1% 5%;
+}
+
+
 /* Quotations */
 /*---------------------------------------------------------------------*/
 
@@ -277,17 +275,6 @@ blockQuote {
   line-height:          0.3em;
 }
 
-/* Titles */
-/*---------------------------------------------------------------------*/
-
-h2 {
-  color:                var(--accent-font-color);
-  background-color:     var(--section-heading-color);
-}
-
-h3, h4 {
-  padding:              1% 5%;
-}
 
 /* Biography cards */
 /*---------------------------------------------------------------------*/
@@ -335,10 +322,14 @@ h6 { padding:           2px 16px 16px 16px;}
 /* -------------------------------------------------------------------- */
 
 .policies h2, .policies li {
-    margin:             0 20%;
     padding:            0.5em 1em;
 }
 
+.policies h2 {
+    background-color:   var(--bio-card-bg-color);
+    color:              var(--title-color);
+    border-bottom:      solid 0.5em var(--title-color);
+}
 
 
 /* Songbook */
