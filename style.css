@@ -114,6 +114,9 @@
     p, .warm-up li, h1, h3, h4, summary, blockQuote, quote, cite {
         margin:                 0 2%;
     }
+    input {
+        margin:                 0 0 0 10%;
+    }
     h2 {
         padding:                1em 8%;
     }
@@ -132,6 +135,9 @@
     }
     p, .warm-up li, h1, h3, h4, summary, blockQuote, quote, cite {
         margin:                 0 10%;
+    }
+    input {
+        margin:                 0 0 0 20%;
     }
     h2 {
         padding:                1em 15%;
@@ -160,10 +166,6 @@
         padding:                1em 15%;
     }
 }
-
-
-
-
 
 
 /* Header and navigation menu */
@@ -397,7 +399,6 @@ label {
 input {
     width:              2em;
     height:             2em;
-    margin:             0 0 0 20%;
     cursor:             pointer;
 
 }
