@@ -71,6 +71,71 @@
     }
 }
 
+/* Responsive */
+/* ===================================================================== */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .mainNav {
+        position:                   static;
+    }
+    .mainNav li {
+        width:                   100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .mainNav li {
+        width:                   100%;
+    }
+    .mainNav ul {
+        padding:                 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .mainNav li {
+        width:                   33%;
+    }
+    .mainNav ul {
+        padding:                 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mainNav {
+        position:                   sticky;
+    }
+    .mainNav li {
+        width:                   20%;
+    }
+    .mainNav ul {
+        padding:                 0;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .mainNav {
+        position:                   sticky;
+    }
+    .mainNav li {
+        width:                      auto;
+    }
+    .mainNav ul {
+        padding:                    0 0 0 19%;
+    }
+}
+
+
+
+
+
+
 /* Header and navigation menu */
 /* ===================================================================== */
 
@@ -82,14 +147,12 @@ h1 {
 }
 
 .mainNav {
-  position:             sticky;
   top:                  0;
   box-shadow:           0 0.3px 0 0 var(--main-font-color);
 }
 
 .mainNav ul {
   margin:               0;
-  padding:              0 20%;
   overflow:             hidden;
   background-color:     var(--nav-quote-bg-color);
   text-decoration:      none;
