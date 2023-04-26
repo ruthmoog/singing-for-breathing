@@ -88,6 +88,7 @@
     }
     .mainNav li {
         width:                  100%;
+        border-bottom:          solid 1px var(--nav-accent-color);
     }
     p, .warm-up li, h1, h3, summary, blockQuote, quote, cite, .policies h2, .policies li {
         margin:                 0 2%;
@@ -104,6 +105,7 @@
 @media only screen and (min-width: 768px) {
     .mainNav li {
         width:                   33%;
+        border-bottom:           none;
     }
     .mainNav ul {
         padding:                 0;
@@ -269,6 +271,7 @@ body {
   color:                var(--main-font-color);
   font-size:            1.5em;
   background-color:     var(--main-bg-color);
+  margin:               0;
 }
 
 img {
