@@ -262,6 +262,10 @@ a.skip:focus {
   list-style-type:      none;
 }
 
+#songbook {
+    position: relative;
+}
+
 .mainNav li {
   float:                left;
 }
