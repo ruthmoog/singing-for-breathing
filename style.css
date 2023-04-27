@@ -422,6 +422,7 @@ h6 { padding:           2px 16px 16px 16px;}
 
 #directory li {
     padding:           2%;
+    min-width: 42px;
 }
 
 #directory a:hover {
