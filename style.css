@@ -35,7 +35,7 @@
         filter:                  brightness(.8) contrast(1.2);
     }
 
-    p, quote, ul, h2, h3, h4, h5, h6 {
+    p, blockQuote, ul, h2, h3, h4, h5, h6 {
         transparency:            50%;
     }
 }
@@ -59,7 +59,7 @@
         filter:                  brightness(0.8) contrast(1.2) sepia(20%);
     }
 
-    p, quote, ul, h2, h3, h4, h5, h6 {
+    p, blockQuote, ul, h2, h3, h4, h5, h6 {
         transparency:           60%;
     }
 
@@ -90,7 +90,7 @@
         width:                  100%;
         border-bottom:          solid 1px var(--nav-accent-color);
     }
-    p, .warm-up li, h1, h3, summary, blockQuote, quote, cite, .policies h2, .policies li {
+    p, .warm-up li, h1, h3, summary, blockQuote, cite, .policies h2, .policies li {
         margin:                 0 2%;
     }
     h2 {
@@ -110,7 +110,7 @@
     .mainNav ul {
         padding:                 0;
     }
-    p, .warm-up li, h1, h3, h4, summary, blockQuote, quote, cite, .policies h2, .policies li {
+    p, .warm-up li, h1, h3, h4, summary, blockQuote, cite, .policies h2, .policies li {
         margin:                 0 2%;
     }
     input {
@@ -129,7 +129,7 @@
     .mainNav ul {
         padding:                 0;
     }
-    p, .warm-up li, h1, h3, h4, summary, blockQuote, quote, cite, .policies h2, .policies li {
+    p, .warm-up li, h1, h3, h4, summary, blockQuote, cite, .policies h2, .policies li {
         margin:                 0 10%;
     }
     input {
@@ -179,7 +179,7 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    p, h1, h3, h4, summary, blockQuote, quote, cite, .policies h2, .policies li {
+    p, h1, h3, h4, summary, blockQuote, cite, .policies h2, .policies li {
         margin:                 0 20%;
     }
     .warm-up li {
@@ -303,7 +303,7 @@ img {
    margin-bottom:       -1.55em;
 }
 
-p, ul, summary {
+p, ul, summary, .quoteAnna {
   padding:              1% 5%;
 }
 
@@ -344,7 +344,7 @@ h3, h4 {
 /*---------------------------------------------------------------------*/
 
 .quoteAnna {
-   padding:             1em 2.5em;
+   padding:             2em 2.5em;
    display:             block;
 }
 
@@ -418,7 +418,7 @@ h6 { padding:           2px 16px 16px 16px;}
 }
 
 .policies h2 {
-    background-color:   var(--bio-card-bg-color);
+    background-color:   var(--main-bg-color);
     color:              var(--title-color);
     border-bottom:      solid 0.5em var(--title-color);
 }
