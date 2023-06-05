@@ -97,7 +97,11 @@
         padding:                1em 8%;
     }
     footer ul, footer p, footer img {
-        margin-left:              5%;
+        margin-left:            5%;
+    }
+    footer a {
+        line-height:            3.25rem;
+        padding:                16px 0 16px 0;
     }
 }
 
@@ -142,6 +146,10 @@
         display:                grid;
         grid-template-columns:  5% 1fr 1fr 1fr 1fr 1fr 1fr 5%;
         grid-auto-columns:      minmax(auto, auto);
+    }
+    footer a {
+        line-height:            1rem;
+        padding:                0;
     }
 
     #our-pages {
