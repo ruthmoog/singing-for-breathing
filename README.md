@@ -17,7 +17,7 @@ I am volunteering my time to set up a simple website for free, so the group will
 #### Chrome Lighthouse Check
 
 | Category | Desktop | Mobile |
-|==========|=========|========|
+|-----|:---:|:---:|
 | Performance | 100 | 100 |
 | Accessibility | 100 | 100 |
 | Best Practises | 100 | 100 |
