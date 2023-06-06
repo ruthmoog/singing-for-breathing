@@ -10,6 +10,10 @@ And I am raising money for us by doing an around the world Dance Marathon in Jun
 
 I am volunteering my time to set up a simple website for free, so the group will be more easily discovered.
 
+### The website
+
+![Responsive with dark and light mode](./assets/colourways.webp)
+
 ## Content Maintenance
 
 ### About the website's technology
