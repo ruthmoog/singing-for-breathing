@@ -14,6 +14,19 @@ I am volunteering my time to set up a simple website for free, so the group will
 
 ![Responsive with dark and light mode](./assets/colourways.webp)
 
+#### Chrome Lighthouse Check
+
+| Category | Desktop | Mobile |
+|==========|=========|========|
+| Performance | 100 | 100 |
+| Accessibility | 100 | 100 |
+| Best Practises | 100 | 100 |
+| SEO | 100 | 100 |
+
+#### Firefox Accessibility Check
+
+- No issues
+
 ## Content Maintenance
 
 ### About the website's technology
