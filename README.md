@@ -27,3 +27,14 @@ I am volunteering my time to set up a simple website for free, so the group will
 
 - No issues
 
+## Specification: User Stories
+
+> as someone with breathing difficulties I want to know what SfB does so I can decide if it will help me with my condition
+
+> as someone who wants help with their breathing, I want to know how I can join in with sessions so I can benefit from them
+
+> as a SfB participant, I want to see the song lyrics during an online session so that I can join in with the words
+
+> as a clinician, I want to know about SfBs outcomes and participant's experiences so I can refer any patients that might benefit
+
+> as a community group, we want to get funding to keep offering our service
