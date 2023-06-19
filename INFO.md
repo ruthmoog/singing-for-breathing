@@ -1,88 +1,94 @@
 # Singing for Breathing website
 
-## Specification
+## Content Maintenance
 
-> as someone with breathing difficulties I want to know what SfB does so I can decide if it will help me with my condition
+### About the website's technology
 
-- **TODO** Add headline introduction to SfB
-- review needed: Cleo
+The content for the website is written in HTML. To learn the basics of HTML, use the [mdn web docs "HTML Basics" guide](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics).
 
-> as someone who wants help with their breathing, I want to know how I can join in with sessions so I can benefit from them
+The text and images etc which are displayed on the site, and written in the file called `index.html`, and specific parts of the content are wrapped in tags so that they will be displayed correctly by web browsers.
 
-- info on catchment needed: Catherine
-- review needed
+The custom style used for the site is written in CSS, and is in a file called `style.css`.
 
-> as a SfB participant, I want to see the song lyrics during an online session so that I can join in with the words
+### How to change something
 
--> **TODO** Songbook - similar to the NHS find your problem interface? Ruth
+The files can be edited in GitHub directly.  The GitHub docs have instructions for [editing files directly on GitHub using the file editor](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files).
 
-> as a clinician, I want to know about SfBs outcomes and participant's experiences so I can refer any patients that might benefit
+:bulb: For developers: You can fork the repo and edit in your preferred IDE as normal.
 
-- review needed: Anna
+It is worth getting familiar with HTML before making changes yourself, so that you're confident you won't publish mistakes to the website. 
 
-Resources:
+Comments may be included in the code to help you. Comments won't be published on the website, they will only appear in the code files, and will be wrapped in tags like this: `<!-- (comment goes here) -->` 
 
-https://www.readcube.com/articles/10.1186%2Fs12890-017-0396-4?author_access_token=vRoIGaatueYBprrgGUV--2_BpE1tBhCbnbw3BuzI2RN7oTv60zYn2cX13_MHGScpkaTtkpWiWgCac8xZ_e_x0dpvs-HBdXpKyYrJ1IOuLig6YuAldA7vUqJovBNf2uWqJ7lzzcjNLKTBM1l5UlBF2Q==
+In general, each section is in a `<div>` with a second level header `<h2>` with the same name as the section, in pascal case.
 
+```html
+<div id="whatToExpect">
+    <!-- there might be an image here e.g. <img src="xyz" /> -->
+    <h2>What to expect</h2>
+    <!-- ... more content here ... -->
+</div>
+```
 
-Asthma+Lung UK research has found a direct correlation between singing and strong lungs. Evidence shows that when breathing from your diaphragm singing will strengthen your lungs and improve lung capacity.
+So, you can search for the div you want to edit, with the file open in the GitHub editor, use `ctrl` + `F` to open your internet browser's search feature, and search for "_What to expect_" or "_whatToExpect_" to find it in the page and jump to that section.
 
-A research project at the Royal Brompton Hospital compared the effects of participation in a singing group, versus a film club and those receiving standard treatment, on those with respiratory disorders. The study showed a significant improvement in physical health among those participating in the singing group. Dr Nicholas Hopkinson, consultant respiratory physicians says:
+If you add new paragraphs, wrap each one in a `<p>` tag, e.g.:
+```html
+<p>This is a new paragraph. </p>
+```
 
-“There is common ground between singing technique and the kinds of techniques physiotherapists teach people with chronic respiratory problems”.
+Use the 'Preview' mode to check your changes.
 
-> as a community group, we want to get funding to keep offering our service
+You can of course request changes to the content from me, or another developer. The site will be Open Access, which means the code will be available for others to use, but users will need permission to publish to our Singing for Breathing website.
 
-- Funding & donations? Catherine
+### Adding or changing media
 
-To do:
-- Footer
-  - Carbon footprint
-  - Thanks/ sponsors eg <a href="https://www.flaticon.com/free-icons/pentagram" title="pentagram icons">Pentagram icons created by Freepik - Flaticon</a>
-  - accessibility statement
-    - We are keen to improve accessibility to Singing for Breathing so that anyone who lives with chronic breathlessness can benefit from the physical therapy, social support and joy that singing together brings.
-  - code of conduct
-  - privacy policy
-  - Social media
-- Colour modes
-  - 🌒 🌕 🌖
+Images are saved in the `assets` folder; save any new images in that folder, and if you are replacing an image remove those which are not in use.
+It is recommended to use the `webp` web image format, as this is the most efficient and will make our website more energy friendly. `png` or `jpeg` etc are find if `webp` is not available to you.
+Try to ensure images are no bigger than they need to be, as large images will take a long time to load.
 
+For that reason, I recommend not to host video media on the website. It is better to provide a link to a website like YouTube or Vimeo instead. It's also preferred to _not_ embed media players from those sites, as it will add cookies to our website and also affect the user experience.
 
-songbook items template:
-<!--
-<details><summary>Title</summary>
-<cite>Metadata</cite>
-<p lang="SB", translate="no"><br />
-</p>
-<small><a href="#top">back to top</a></small><br />
-</details>
--->
+### Updating the songbook
 
+At the moment, all songs are written in HTML in the file `songbook.html`.
+This template can be used to add more songs:
 
-Cookies Policy
+1. Search for the section of the first letter of the song title
+   - `ctrl`+`F` for example, for " _section id="M"_ "
+2. Add the lyrics to the template:
+   1. if the song is not in English, add the language, using the [2 or 3 digit language subtag](https://r12a.github.io/app-subtags/) code to the first `<p>` tag:
+   -  for example, in Zulu the code is **zu** so we add `lang="zu"` like this: `<p lang="zu" translate="no"><br />`
 
-This Cookies Policy describes how our website [insert website name] ("Website") does not use any cookies to store or retrieve information on your browser.
+  - ```html
+    <details><summary>My Song</summary>
+                <p translate="no"><br />
+                    <strong>Alto:</strong><br />
+                    Add the lyrics here<br />
+                    IT DOESNT MATTER WHICH CASE YOU USE<br />
+                    Keep the br tag at the end of each line<br />
+                    And add a br tag between each paragraph too<br />
+                    <br />
+                    <strong>Bass:</strong><br />
+                    the strong tag makes text bold<br />
+                </p>
+            </details>
+    ```
+  3. If needed, you can copy and past the following link at the end of the lyrics, which takes users to the top of the page where the song navigation is.
+   - ```html
+           <p><small><a href="#directory">back to top</a></small></p>
+      ```
+     
+**IMPORTANT**: If you're adding the first song for a letter, you will need to update the AtoZ navigation!
+1. Search for " _id="directory"_ "
+2. Find your letter in the columns, each one is wrapped in `<li>` tags, it will look like this one:
+   - `<li>Z</li> `
+3. You'll need to add an `<a>` tag with a `href="#LETTER"` to the letter location you need, like this: 
+   - `<li><a href="#Z">Z</a></li>`
 
-What are Cookies?
+### Requesting a change
 
-Cookies are small text files that are placed on your device when you visit a website. They are widely used to enable website functionality, improve user experience, and provide website owners with valuable information about how visitors interact with their site.
+Drop me (Ruth) a message and I'll see what I can do! Changes to the content which don't change the structure of the site are simple. I can demo how to make a change over zoom as well so you can learn this yourself. More complex changes might require more work and testing in the browser, so should be kept to a minimum.
+Content on the website should be as evergreen as possible to reduce the need for making changes.
 
-Our Use of Cookies
-
-Our website does not use any cookies to store or retrieve information on your browser. This means that we do not track your activity or collect any personal information about you.
-
-Third-Party Cookies
-
-Our website does not use any third-party cookies. Third-party cookies are cookies that are set by a domain other than the one that the user is visiting. They are typically used for advertising, analytics, and social media integration.
-
-Managing Cookies
-
-As our website does not use any cookies, there is no need for you to manage or delete them. If you are concerned about cookies on other websites, you can manage them through your browser settings.
-
-Changes to Our Cookies Policy
-
-We may update our Cookies Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any changes by posting the updated policy on our website. Your continued use of our website after the effective date of the updated policy will constitute your acceptance of the changes.
-
-Contact Us
-
-If you have any questions or concerns about our Cookies Policy, please contact us at [insert contact information].
+If you notice a bug or a problem, you can also raise an `Issue` on GitHub. This is like a message board for tracking work/progress. Add as much info as you can about the problem so it can be understood and fixed, by me, another user, or in the future.
