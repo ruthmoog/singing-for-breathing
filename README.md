@@ -1,5 +1,7 @@
 # Singing For Breathing
 
+![Singing for Breathing RLH website status](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=website&style=for-the-badge&up_color=blueviolet&up_message=online&url=https%3A%2F%2Fruthmoog.github.io/singing-for-breathing/)
+
 This is the open repo for the Singing for Breathing RLH community group. The site is in progress and is not yet live.
 
 ## Info & Fundraising
